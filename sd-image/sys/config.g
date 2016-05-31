@@ -2,9 +2,9 @@
 
 ; Communication and general
 M111 S0                             ; Debug off
-M550 Preprapisher		                ; Machine name (can be anything you like)
+M550 Preprapfisher		                ; Machine name (can be anything you like)
 M551 Preprap                        ; Machine password (used for FTP)
-M540 P0xBE:0xEF:0xDE:0xAD:0xFE:0x46 ; MAC Address (must be unique on your network)
+M540 P0xBE:0xEF:0xDE:0xAD:0xFE:0x01 ; MAC Address (must be unique on your network)
 M552 P0.0.0.0                       ; use DHCP
 ;M554 P192.168.1.1                  ; Gateway
 M553 P255.255.255.0                 ; Netmask
