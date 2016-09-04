@@ -21,7 +21,7 @@ M569 P2 S1					            ; Drive 2 goes forwards
 M569 P3 S1						    ; Drive 3 goes forwards
 M569 P4 S1						    ; Drive 4 goes forwards
 M574 X2 Y2 Z2 S1				            ; set endstop configuration (all endstops at high end, active high)
-M665 R81.0 L160.0 B75 H167		    ; set delta radius, diagonal rod length, printable radius and homed height
+M665 R81.0 L160.0 B75 H161		    ; set delta radius, diagonal rod length, printable radius and homed height
 M666 X-2.6 Y1.6 Z1.0  			            ; put your endstop adjustments here
 M92 X87.489 Y87.489 Z87.489  	            ; Set axis steps/mm
 M906 X800 Y800 Z800 E1000		    ; Set motor currents (mA)
