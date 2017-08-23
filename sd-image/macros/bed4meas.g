@@ -16,16 +16,16 @@ M201 X500 Y500 Z500
 ;G30 P0 X0 Y0 Z-99999
 
 ; Probe the bed and do auto calibration
-G1 X-64.95 Y-37.5 F12000
+G1 X-67.95 Y-40.5 F12000
 G4 P300
-G30 P0 X-64.95 Y-37.5 Z-99999	    ; X tower
+G30 P0 X-67.95 Y-40.5 Z-99999	    ; X tower
 G4 P300
-G30 P1 X64.95 Y-37.5 Z-99999	    	; Y tower
+G30 P1 X67.95 Y-40.5 Z-99999	    	; Y tower
 G4 P300
-G30 P2 X0 Y75 Z-99999			; Z tower
+G30 P2 X0 Y79 Z-99999			; Z tower
 G4 P300
 ;G31 Z-0.4
-G30 P3 X0 Y0 Z-99999 H-0.2 S-1		; centre, and auto-calibrate
+G30 P3 X0 Y0 Z-99999 S-1		; centre, and auto-calibrate
 ;G31 Z-0.2
 
 G1 X0 Y0 F15000

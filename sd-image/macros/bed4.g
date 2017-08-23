@@ -25,7 +25,7 @@ G4 P300
 G30 P2 X0 Y79 Z-99999			; Z tower
 G4 P300
 ;G31 Z-0.4
-G30 P3 X0 Y0 Z-99999 H-0.2 S0		; centre, and auto-calibrate
+G30 P3 X0 Y0 Z-99999 S0		; centre, and auto-calibrate
 ;G31 Z-0.2
 
 G1 X0 Y0 F15000
